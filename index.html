@@ -15,13 +15,15 @@
         <p>Todo List</p>
         <div class="input_field">
             <input type="text" id="work" placeholder="Enter work">
-            <button type="button" id="submit"><i class="fas fa-plus"></i></button>
+            <button type="button" id="submit" ><i class="fas fa-plus"></i></button>
+            <button type="button" id="submitupdate" style="display: none;"><i class="fas fa-plus"></i></button>
         </div>
-        <ul class="todo_list"></ul>
-        <!-- <div class="footer">
-            <span>Có ... mục đang cần hoàn thành</span>
-            <button>Clear All</button>
-        </div> -->
+        <ul class="todo_list">
+        </ul>
+        <div class="footer">
+            <span>Có <span id="count"></span> mục đang cần hoàn thành</span>
+            <button type="button" id="deleteAll">Clear All</button>
+        </div>
     </div>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
