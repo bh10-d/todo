@@ -116,3 +116,4 @@ Khi three dots (…) xảy ra trong một function call hoặc tương tự, nó
 //THIS: this sẽ trỏ tới chính object gọi hàm đó
 
 //higher orderfuntion:        là hàm nhận 1 hàm khác làm đối số hoặc trả vè 1 hàm dưới dạng đầu ra
+//
